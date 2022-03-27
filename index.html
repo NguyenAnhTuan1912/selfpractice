@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, target-densitydpi=device-dpi, user-scalable=no">
+    <title>Self-Practice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="image/logo/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pageone.css">
+    <link rel="stylesheet" href="css/pagetwo.css">
+    <link rel="stylesheet" href="css/pagethree.css">
+    <link rel="stylesheet" href="css/pagebreak.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="body">
+        <div class="body__pageOne" id="jsPageOne">
+            <div class="body__pageOne__content-container">
+                <div class="body__pageOne__content__text">
+                    <p class="text">Self-Practice</p>
+                    <p class="text">The Journey Marker</p>
+                </div>
+            </div>
+        </div>
+        <div class="body__pageOne__background-container">
+            <div class="body__pageOne__background">
+                <div class="body__pageOne__background__img-container">
+                    <img src="image/svg/Object_Cloud.svg" alt="">
+                </div>
+                <div class="body__pageOne__background__img-container">
+                    <img src="image/svg/Object_Cloud.svg" alt="">
+                </div>
+                <div class="body__pageOne__background__img-container">
+                    <img src="image/svg/Object_Cloud.svg" alt="">
+                </div>
+                <div class="body__pageOne__background__text-container">
+                    <div class="body__pageOne__background__text">
+                        <p class="text">Scroll down to know more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body__breakPage" id="jsPageBreak-1">
+            <div class="body__breakPage__textheader-container">
+                <div class="body__breakPage__textheader">
+                    <p class="textheader">Map</p>
+                </div>
+                <div class="body__breakPage__textheader">
+                    <p class="textheader" id="jsMoveLeft_Text_TJHB">The Journey has begun</p>
+                    <div class="body__breakPage__textheader-after" id="jsIncreaseWidth_BlackRectangle-TJHB"></div>
+                </div>
+                <div class="body__breakPage__textheader-container-after" id="jsDecreaseWidth_BlackRectangle"></div>
+            </div>
+            <div class="body__breakPage__text-container" id="jsMoveDown_LS-container">
+                <div class="body__breakPage__text">
+                    <p class="text">LET'S START</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="body__modal" id="jsModal">
+            <div class="body__modal-container">
+                <div class="body__modal__information-container">
+                    <div class="body__modal__information__textheader-container">
+                        <h2 class="textheader" id="jsModal__information__header"></h2>
+                    </div>
+                    <div class="body__modal__information__text-container" style="margin-top: 10px">
+                        <p class="text_description">Short description</p>
+                        <p class="text" id="jsModal__information__descriptiontext"></p>
+                    </div>
+                    <div class="body__modal__information__button-container">
+                        <button class="body__modal__information__button"  onclick="alert('Đang cập nhật!')">View</button>
+                        <button class="body__modal__information__button" onclick="alert('Đang cập nhật!')">Next</button>
+                        <button class="body__modal__information__button" id="jsBody__modal__information__button__exit">Exit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body__pageTwo" id="jsPageTwo">
+            <div class="body__pageTwo__main">
+                <div class="body__pageTwo__main__img-container">
+                    <img src="image/svg/SecondPage_Map-01.svg" alt="" class="map" id="jsMap">
+                </div>
+                <div class="body__pageTwo__main__circlenumberic-container">
+                    <div class="body__pageTwo__main__circlenumberic">
+                        <div class="week" onclick="currentInformation(1)">
+                            <div class="week__circle"></div>
+                            <div class="week__text-container">
+                                <p class="week__text">Week 1</p>
+                                <p class="week__name">Start</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body__pageTwo__main__object-container">
+                    <div class="body__pageTwo__main__object">
+                        <img src="image/svg/Object_Nail.svg" alt="" class="nail">
+                    </div>
+                    <div class="body__pageTwo__main__object">
+                        <img src="image/svg/Object_Nail2.svg" alt="" class="nail">
+                    </div>
+                    <div class="body__pageTwo__main__object">
+                        <img src="image/svg/Object_Coin.svg" alt="" class="coin">
+                    </div>
+                    <div class="body__pageTwo__main__object">
+                        <img src="image/svg/Object_Coin2.svg" alt="" class="coin">
+                    </div>
+                    <div class="body__pageTwo__main__object">
+                        <img src="image/svg/Object_Compass.svg" alt="" class="compass">
+                    </div>
+                    <div class="body__pageTwo__main__object">
+                        <img src="image/svg/Object_Compass_Arrow.svg" alt="" class="compassarrow">
+                    </div>
+                    <div class="body__pageTwo__main__object">
+                        <img src="image/svg/Object_Cloud.svg" alt="" class="cloud">
+                    </div>
+                    <div class="body__pageTwo__main__object">
+                        <img src="image/svg/Object_Cloud.svg" alt="" class="cloud">
+                    </div>
+                </div>
+            </div>
+            <div class="body__pageTwo__side" id="jsPageTwoSide">
+                <div class="body__pageTwo__side__text-container">
+                    <div class="body__pageTwo__side__text__textheader-container">
+                        <h2 class="textheader">Introduction</h2>
+                    </div>
+                    <div class="body__pageTwo__side__text__text-container">
+                        <p class="text">The map was placed on the left of page that indicate my "front-end journey".
+                        &#8594; The munberic circles show how many small projects I did.
+                        </p>
+                    </div>
+                </div>
+                <div class="body__pageTwo__side__information-container" id="page2__information-container">
+                    <div class="body__pageTwo__side__information__textheader-container">
+                        <h2 class="textheader" id="jsPageTwo__information__header"></h2>
+                    </div>
+                    <div class="body__pageTwo__side__information__text-container" style="margin-top: 10px">
+                        <p class="text_description">Short description</p>
+                        <p class="text" id="jsPageTwo__information__descriptiontext"></p>
+                        <br>
+                        <p class="text_description">Preview</p>
+                    </div>
+                    <div class="body__pageTwo__side__information__preview-container">
+                        <div class="body__pageTwo__side__information__preview">
+                            <img src="" alt="" id="jsPageTwo__information__previewimage">
+                        </div>
+                    </div>
+                    <div class="body__pageTwo__side__information__button-container">
+                        <button class="body__pageTwo__side__information__button" onclick="alert('Đang cập nhật!')">Next</button>
+                        <button class="body__pageTwo__side__information__button"  onclick="alert('Đang cập nhật!')">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body__breakPage" id="jsPageBreak-2">
+            <div class="body__breakPage__img-container">
+                <img src="image/svg/PageBreak_Background.svg" alt="">
+            </div>
+            <div class="body__breakPage__text-container">
+                <div class="body__breakPage__text">
+                    <p class="text">THE END OF JOURNEY</p>
+                </div>
+                <div class="body__breakPage__text-container-after" id="jsDecreaseWidth_BlackRectangle_TEOJ"></div>
+            </div>
+        </div>
+        <div class="body__pageThree">
+            <div class="body__pageThree__contentcol-1-container">
+                <div class="body__pageThree__contentcol-1__namesite-container">
+                    <div class="body__pageThree__contentcol-1__namesite__img">
+                        <img src="image/svg/SelfPractice-01.svg" alt="">
+                    </div>
+                </div>
+                <div class="body__pageThree__contentcol-1__aboutthissite-container">
+                    <div class="body__pageThree__contentcol-1__aboutthissite__text">
+                        <p class="text">is one of my main front-end project that consist of smaller projects.
+                        It shows my self-study process, from simple to complex.
+                        </p>
+                        <br>
+                        <p class="text">"Self Practice" is one of my main projects that I build to improve experiences and skills for my future job.
+                        </p>
+                        <br>
+                        <p class="text">More of my work will be updated soon.</p>
+                        <br>
+                        <p class="text">© 2022 Nguyen Anh Tuan. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="body__pageThree__contentcol-2-container">
+                <div class="body__pageThree__contentcol-2__textheader-container">
+                    <div class="body__pageThree__contentcol-2__textheader__text">
+                        <p class="text">A little about me</p>
+                    </div>
+                </div>
+                <div class="body__pageThree__contentcol-2__text-container">
+                    <div class="body__pageThree__contentcol-2__text">
+                        <p class="text">I'm Tuan, becoming a front-end developer is my main goal, that's the reason why I build this project.
+                            The combination of Design, was one of my preference in high school, and Code is my main goal that I mentioned.
+                        </p>
+                    </div>
+                </div>
+                <div class="body__pageThree__contentcol-2__textheader-container" style="margin-top: 25px;">
+                    <div class="body__pageThree__contentcol-2__textheader__text">
+                        <p class="text">Explore</p>
+                    </div>
+                </div>
+                <div class="body__pageThree__contentcol-2__text-container">
+                    <div class="body__pageThree__contentcol-2__text">
+                        <a href="#" class="explorelink">My archival website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="body__pageThree__contentcol-3-container">
+                <div class="body__pageThree__contentcol-3__textheader-container">
+                    <div class="body__pageThree__contentcol-3__textheader__text">
+                        <p class="text">Follow</p>
+                    </div>
+                </div>
+                <div class="body__pageThree__contentcol-3__text-container">
+                    <div class="body__pageThree__contentcol-3__text">
+                        <a href="#" class="explorelink">Facebook</a>
+                        <br>
+                        <a href="#" class="explorelink">Instagram</a>
+                        <br>
+                        <a href="#" class="explorelink">Behance</a>
+                    </div>
+                </div>
+                <div class="body__pageThree__contentcol-3__textheader-container" style="margin-top: 25px;">
+                    <div class="body__pageThree__contentcol-3__textheader__text">
+                        <p class="text">Contact</p>
+                    </div>
+                </div>
+                <div class="body__pageThree__contentcol-3__text-container">
+                    <div class="body__pageThree__contentcol-3__text">
+                        <a href="#" class="explorelink">Email</a>
+                    </div>
+                </div>
+                <div class="body__pageThree__contentcol-3__img-container">
+                    <img src="image/svg/Object_Coin.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/stickycontainer.js"></script>
+    <script src="js/pagebreakanimationactive.js"></script>
+    <script src="js/toggleinformation.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+
+<!--
+    <div class="body__pageThree__illustratorscene-container">
+                <div class="body__pageThree__car-container">
+                    <img src="image/svg/Object_Car.svg" alt="" class="car">
+                </div>
+                <div class="body__pageThree__wheel-container-absolute">
+                    <div class="body__pageThree__wheel-container-relative">
+                        <div class="body__pageThree__wheel">
+                            <img src="image/svg/Object_Wheel.svg" alt="" class="wheel" style="width: 30.617px; height: 30.617px;">
+                        </div>
+                        <div class="body__pageThree__wheel">
+                            <img src="image/svg/Object_Wheel.svg" alt="" class="wheel" style="width: 30.617px; height: 30.617px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="body__pageThree__smoke-container">
+                    <img src="image/svg/Object_Smoke.svg" alt="" class="smoke">
+                </div>
+            </div>
+-->

@@ -1,0 +1,144 @@
+/*Trang đầu của trang web*/
+div.body__pageOne {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Thùng chứa nội dung*/
+div.body__pageOne div.body__pageOne__content-container {
+    display: flex;
+    width: 100%;
+    height: 165px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Thùng chứa text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text {
+    display: flex;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 25px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text {
+    cursor: default;
+}
+
+/*Chữ 1*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1) {
+    font-family: 'MyriadPro-Black';
+    font-size: 72pt;
+}
+
+/*Before và After của p.text:nth-child(1)*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1):before {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 71, 71);
+    border-radius: 50%;
+    z-index: -1;
+    top: 25%;
+    left: 1%;
+}
+
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1):after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-color: rgb(80, 83, 255);
+    border-radius: 50%;
+    z-index: -1;
+    top: 20.5%;
+    right: 0%;
+}
+
+/*Chứ 2*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(2) {
+    font-family: 'MyriadPro-light';
+    font-size: 20pt;
+}
+
+/*Background*/
+div.body__pageOne__background-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -5;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container {
+    position: absolute;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(1) {
+    top: 10%;
+    left: 15%;
+    width: 300px;
+    height: 300px;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(2) {
+    top: 45%;
+    left: -10%;
+    width: 500px;
+    height: 500px;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(3) {
+    top: 30%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+}
+
+/*String "Scroll Down to know more"*/
+div.body__pageOne__background-container div.body__pageOne__background__text-container {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    bottom: 3%;
+    left: 50%;
+    z-index: -1;
+    transform: translateY(0) translateX(-50%);
+}
+
+div.body__pageOne__background-container div.body__pageOne__background__text-container div.body__pageOne__background__text {
+    width: fit-content;
+    height: fit-content;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background__text-container div.body__pageOne__background__text p.text {
+    font-family: 'MyriadPro-light';
+    font-size: 16pt;
+    line-height: 0.8;
+    color: #262626;
+    text-align: center;
+}
+
+
+
+
+
+
+/*Keyframes*/

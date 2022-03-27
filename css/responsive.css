@@ -1,0 +1,518 @@
+@media only screen and (max-width: 1440px) {
+/*
+//
+////
+////// PAGE ONE
+////
+//
+*/
+/*Self Practice Text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1) {
+    font-size: 50pt;
+}
+
+/*Red Circle of Self Practice Text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1):before {
+    width: 60px;
+    height: 60px;
+    top: 25.5%;
+    left: 1.5%;
+}
+
+/*Blue Circle of Self Practice Text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1):after {
+    width: 50px;
+    height: 50px;
+    top: 21%;
+    right: 0.5%;
+}
+
+/*Scroll down to know more text*/
+div.body__pageOne__background-container div.body__pageOne__background__text-container div.body__pageOne__background__text p.text {
+    font-size: 14pt;
+}
+
+/*The Journey Marker Text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(2) {
+    font-family: 'MyriadPro-light';
+    font-size: 16pt;
+}
+
+/*Cloud on the page*/
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(1) {
+    top: 10%;
+    left: 15%;
+    width: 300px;
+    height: 300px;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(2) {
+    top: 45%;
+    left: -10%;
+    width: 500px;
+    height: 500px;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(3) {
+    top: 30%;
+    right: -10%;
+    width: 500px/*38.461538461%;*/;
+    height: 500px/*38.461538461%;*/;
+}
+
+
+/*
+//
+////
+////// THE FIRST BREAK PAGE
+////
+//
+*/
+/*The black rectangle on the right of 1st break page*/
+div.body__breakPage:nth-child(3) div.body__breakPage__textheader-container div.body__breakPage__textheader-container-after {
+    width: 120px;
+}
+
+/*Black Lined Circle on the first break page*/
+div.body div.body__breakPage:nth-child(3):after {
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%);
+}
+
+/*
+//
+////
+////// PAGE TWO
+////
+//
+*/
+div.body__pageTwo {
+    position: relative;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/*Side Section*/
+div.body__pageTwo div.body__pageTwo__side {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+/*Side Text container*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__text-container {
+    width: 912px;
+    text-align: right;
+    box-shadow: none;
+}
+
+/*Information Container*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container {
+    visibility: hidden;
+    display: none;
+}
+
+/*Circle on the Introduction Container*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__text-container:after {
+    width: 0px;
+    height: 0px;    
+}
+
+
+/*
+//
+////
+////// SECOND BREAK PAGE
+////
+//
+*/
+
+div.body__breakPage:nth-child(6) div.body__breakPage__text-container div.body__breakPage__text p.text {
+    font-size: 70pt;
+}
+
+div.body__breakPage:nth-child(6) div.body__breakPage__text-container div.body__breakPage__text {
+    text-align: center;
+}
+
+/*Image container*/
+div.body__breakPage div.body__breakPage__img-container {
+    width: 100%;
+}
+
+div.body__breakPage div.body__breakPage__img-container img {
+    width: 1920px;
+    height: 200px;
+}
+
+/*
+//
+////
+////// FINAL PAGE
+////
+//
+*/
+div.body__pageThree {
+    grid-template-columns: auto auto;
+}
+
+/*Column 1*/
+div.body__pageThree div.body__pageThree__contentcol-1-container {
+    width: 100%;
+}
+
+/*Column 2*/
+div.body__pageThree div.body__pageThree__contentcol-2-container {
+    width: 100%;
+}
+
+/*Column 3*/
+div.body__pageThree div.body__pageThree__contentcol-3-container {
+    width: 100%;
+    grid-column: 1 / span 2;
+}
+
+}
+
+
+@media only screen and (max-width: 912px) {
+/*
+//
+////
+////// THE SECOND PAGE
+////
+//
+*/
+/*Map Container*/
+div.body__pageTwo {
+    width: 100%;
+    /*height: 228.837719298vw;*/
+}
+
+
+div.body__pageTwo div.body__pageTwo__main {
+    width: 100%;
+    height: 228.837719298vw;
+}
+
+
+/*Map*/
+
+/*Numberic Circle Container*/
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container {
+    width: 100%;
+    height: 100%;
+}
+
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic {
+    width: 100%;
+    height: 100%;
+}
+
+/*Object Containẻ*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container {
+    width: 100%;
+    height: 100%;
+}
+
+/*Side - Text container*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__text-container {
+    width: 100%;
+}
+
+}
+
+
+/*Other*/
+@media only screen and (max-width: 1185px) {
+/*Nail*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(1) {
+    visibility: hidden;
+    display: none;
+   /* transform: translateX(250%) translateY(175%);*/
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(2) {
+    visibility: hidden;
+    display: none;
+   /* transform: translateX(-52%) translateY(435%);*/
+}
+
+/*Coins*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(3) {
+    width: 16.87763713%;
+   /* transform: translateX(-52%) translateY(130%);*/
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(4) {
+    width: 16.87763713%;
+   /* transform: translateX(550%) translateY(475%);*/
+}
+
+/*Compass*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(5) {
+    width: 23.628691983%;
+    left: 0;
+    top: 0%;
+    /*transform: translateX(-52%) translateY(-320%);*/
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(6) {
+    width: 23.628691983%;
+    left: 0;
+    top: 0.6%;
+    /*transform: translateX(-52%) translateY(-415%);*/
+}
+
+/*Clouds*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(7) {
+    width: 32.894736842%;
+    /*transform: translateX(230%) translateY(-510%);*/
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(8) {
+    width: 35.087719298%;
+   /* transform: translateX(100%) translateY(-10%);*/
+}
+}
+
+@media only screen and (max-width: 1000px) {
+/*
+//
+////
+////// PAGE ONE
+////
+//
+*/
+/*Cloud on page One*/
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(1) {
+    top: 10%;
+    left: 15%;
+    width: 250px;
+    height: 250px;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(2) {
+    top: 45%;
+    left: -10%;
+    width: 450px;
+    height: 450px;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(3) {
+    top: 30%;
+    right: -20%;
+    width: 450px;
+    height: 450px;
+}
+}
+
+
+@media only screen and (max-width: 900px) {
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(1) {
+    top: 10%;
+    left: 15%;
+    width: 27.777777777%;
+    height: 27.777777777vw;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(2) {
+    top: 45%;
+    left: -10%;
+    width: 50%;
+    height: 50vw;
+}
+
+div.body__pageOne__background-container div.body__pageOne__background div.body__pageOne__background__img-container:nth-child(3) {
+    top: 30%;
+    right: -20%;
+    width: 50%;
+    height: 50vw;
+}
+
+/*
+//
+////
+////// THE FIRST BREAK PAGE
+////
+//
+*/
+/*The black rectangle on the right of 1st break page*/
+div.body__breakPage:nth-child(3) div.body__breakPage__textheader-container div.body__breakPage__textheader-container-after {
+    width: 80px;
+}
+
+/*Black Lined Circle on the first break page*/
+div.body div.body__breakPage:nth-child(3):after {
+    width: 0;
+    height: 0;
+}
+
+/*Let's Start Text*/
+div.body__breakPage:nth-child(3) div.body__breakPage__text-container:nth-child(2) div.body__breakPage__text p.text {
+    font-size: 70pt;
+}
+
+div.body__breakPage:nth-child(3) div.body__breakPage__text-container:nth-child(2) {
+    width: 250px;
+    top: 70%;
+    left: 5%;
+}
+
+/*Map*/
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(1) p.textheader {
+    font-size: 40pt;
+}
+
+/*The journey has begun*/
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(2) p.textheader {
+    font-size: 16pt;
+}
+
+/*The black retangle on the left of "The journey has begun"*/
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(2) div.body__breakPage__textheader-after {
+    left: -80%;
+}
+
+
+/*
+//
+////
+////// THE SECOND PAGE
+////
+//
+*/
+/*Numberic Circle*/
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic div.week {
+    width: 6.578947368%;
+    height: fit-content;
+    padding: 0;
+    font-size: 2.074074074vw;
+}
+
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic div.week div.week__circle {
+    width: 3.289473684vw;
+    height: 3.289473684vw;
+}
+
+/*
+//
+////
+////// THE SECOND BREAK PAGE
+////
+//
+*/
+/*The end of Journey*/
+div.body__breakPage:nth-child(6) div.body__breakPage__text-container div.body__breakPage__text p.text {
+    font-size: 40pt;
+}
+
+
+/*
+//
+////
+////// THE FINAL PAGE
+////
+//
+*/
+div.body__pageThree {
+    grid-template-columns: 100%;
+}
+
+/*Column 1*/
+div.body__pageThree div.body__pageThree__contentcol-1-container {
+    border-right: none;
+}
+
+/*Column 3*/
+div.body__pageThree div.body__pageThree__contentcol-3-container {
+    grid-column: 1;
+}
+
+}
+
+/*Text*/
+@media only screen and (max-width: 450px) {
+/*Self Practice Text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1) {
+    font-size: 25pt;
+}
+
+/*Red Circle of Self Practice Text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1):before {
+    width: 40px;
+    height: 40px;
+    top: 20%;
+    left: 0%;
+}
+
+/*Blue Circle of Self Practice Text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(1):after {
+    width: 30px;
+    height: 30px;
+    top: 20%;
+    right: 0%;
+}
+
+/*Scroll down to know more text*/
+div.body__pageOne__background-container div.body__pageOne__background__text-container div.body__pageOne__background__text p.text {
+    font-size: 8pt;
+}
+
+/*The Journey Marker Text*/
+div.body__pageOne div.body__pageOne__content-container div.body__pageOne__content__text p.text:nth-child(2) {
+    font-family: 'MyriadPro-light';
+    font-size: 10pt;
+}   
+}
+
+@media only screen and (max-width: 400px) {
+div.body__pageTwo div.body__pageTwo__side {
+    width: 100%;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__text-container {
+    width: 100%;
+    height: fit-content;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container {
+    width: 100%;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__preview-container {
+    width: 100%;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__button-container {
+    width: 100%;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__button-container button {
+    width: 90px;
+}
+
+/*Modal*/
+div.body__modal div.body__modal-container div.body__modal__information-container {
+    width: 90%;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__preview-container {
+    width: 100%;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__button-container {
+    width: 100%;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__button-container button.body__modal__information__button {
+    width: 100%;
+    font-size: 4vw;
+}
+
+}

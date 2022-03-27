@@ -1,0 +1,401 @@
+/*Page 2*/
+div.body__pageTwo {
+    position: relative;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*background-color: white;*/
+}
+
+div.body__pageTwo div.body__pageTwo__main {
+    position: relative;
+    float: left;
+    width: 912px;
+    height: 2087px;
+    box-shadow: 10px 15px #262626;
+    background-color: white;
+    z-index: 2;
+}
+
+div.body__modal {
+    position: fixed;
+    display: none;
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+    top: 0;
+    left: 0;
+}
+
+div.body__modal div.body__modal-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+div.body__pageTwo div.body__pageTwo__side {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 2087px;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__text-container {
+    position: relative;
+    width: 400px;
+    height: 120px;
+    border: 1px solid #262626;
+    box-shadow: 10px 15px #262626;
+    background-color: white;
+    padding: 10px;
+    z-index: 2;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container {
+    position: absolute;
+    width: 400px;
+    height: fit-content;
+    border: 1px solid #262626;
+    box-shadow: 10px 15px #262626;
+    background-color: white;
+    padding: 10px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+/*Numberic Circle*/
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container {
+    position: absolute;
+    width: 912px;
+    height: 2087px;
+    top: 0;
+    z-index: 4;
+}
+
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic {
+    position: relative;
+    width: 912px;
+    height: 2087px;
+}
+
+
+/*Object*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container {
+    position: relative;
+    width: 912px;
+    height: 2087px;
+    transform: translateY(-100.31%);
+    z-index: 3;
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object {
+    position: absolute;
+    width: 320px;
+}
+
+/*Nail*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(1) {
+    right: -23%;
+    top: 27.5%;
+   /* transform: translateX(250%) translateY(175%);*/
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(2) {
+    left: -17.5%;
+    top: 83.7%;
+   /* transform: translateX(-52%) translateY(435%);*/
+}
+
+/*Coins*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(3) {
+    width: 150px;
+    left: -8.5%;
+    top: 41%;
+   /* transform: translateX(-52%) translateY(130%);*/
+}
+
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(4) {
+    width: 150px;
+    right: -7%;
+    top: 74.5%;
+   /* transform: translateX(550%) translateY(475%);*/
+}
+
+/*Compass*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(5) {
+    left: -17%;
+    top: -3%;
+    /*transform: translateX(-52%) translateY(-320%);*/
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(6) {
+    left: -17%;
+    top: -2.3%;
+    /*transform: translateX(-52%) translateY(-415%);*/
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(6) img.compassarrow {
+    animation: Spin 2.4s infinite;
+}
+
+
+/*Clouds*/
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(7) {
+    width: 300px;
+    right: -9%;
+    top: 3%;
+    /*transform: translateX(230%) translateY(-510%);*/
+}
+
+div.body__pageTwo div.body__pageTwo__main div.body__pageTwo__main__object-container div.body__pageTwo__main__object:nth-child(8) {
+    left: 36%;
+    top: 92%;
+   /* transform: translateX(100%) translateY(-10%);*/
+}
+
+
+/*Modal*/
+/*Modal information container*/
+div.body__modal div.body__modal-container div.body__modal__information-container {
+    width: 400px;
+    height: fit-content;
+    border: 1px solid #262626;
+    box-shadow: 10px 15px #262626;
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container h2.textheader {
+    width: fit-content;
+    font-family: 'MyriadPro-Bold';
+    font-size: 20pt;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container p.text_description {
+    font-family: 'MyriadPro-Bold';
+    font-size: 13pt;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container p.text {
+    font-family: 'MyriadPro-Light';
+    font-size: 13pt;
+}
+
+/*Prewview border*/
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__preview-container {
+    display: flex;
+    overflow: hidden;
+    width: 380px;
+    height: 285px;
+    border: 1px solid #262626;
+    justify-content: center;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__preview-container div.body__modal__information__preview {
+    width: 380px;
+    height: 285px;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__preview-container div.body__modal__information__preview img {
+    width: 380px;
+    height: 285px;
+}
+
+/*Button container & Buttons*/
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__button-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    margin-top: 10px;
+    width: 380px;
+    height: 60px;
+    padding: 10px 0;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__button-container button.body__modal__information__button {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #262626;
+    font-size: 12pt;
+    font-family: 'MyriadPro-Bold';
+    float: right;
+    padding: 10px;
+}
+
+div.body__modal div.body__modal-container div.body__modal__information-container div.body__modal__information__button-container button:first-child {
+    background-color: #262626;
+    color: white;
+}
+
+
+
+/*Side text - 1*/
+/*Introduction Banner*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__text-container div.body__pageTwo__side__text__textheader-container h2.textheader {
+    font-family: 'MyriadPro-Bold';
+    font-size: 20pt;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__text-container div.body__pageTwo__side__text__text-container p.text {
+    font-family: 'MyriadPro-Light';
+    font-size: 13pt;
+}
+
+/*Information Banner*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__textheader-container h2.textheader {
+    width: fit-content;
+    font-family: 'MyriadPro-Bold';
+    font-size: 20pt;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__text-container p.text_description {
+    font-family: 'MyriadPro-Bold';
+    font-size: 13pt;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__text-container p.text {
+    font-family: 'MyriadPro-Light';
+    font-size: 13pt;
+}
+
+/*Prewview border*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__preview-container {
+    display: flex;
+    overflow: hidden;
+    width: 380px;
+    height: 285px;
+    border: 1px solid #262626;
+    justify-content: center;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__preview-container div.body__pageTwo__side__information__preview {
+    width: 380px;
+    height: 285px;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__preview-container div.body__pageTwo__side__information__preview img {
+    width: 380px;
+    height: 285px;
+}
+
+/*Button container & Buttons*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__button-container {
+    margin-top: 10px;
+    width: 380px;
+    height: 60px;
+    padding: 10px 0;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__button-container button.body__pageTwo__side__information__button {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #262626;
+    font-size: 12pt;
+    font-family: 'MyriadPro-Bold';
+    float: right;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__information-container div.body__pageTwo__side__information__button-container button:last-child {
+    background-color: #262626;
+    color: white;
+}
+
+/*Numberic Circle Link*/
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic div.week {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: fit-content;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2;
+    flex-direction: column;
+    font-family: 'MyriadPro-Bold';
+    font-size: 14pt;
+
+    /*position*/
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1%;
+}
+
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic div.week div.week__circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(80, 83, 255);
+}
+
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic div.week div.week__text-container {
+    line-height: 0.8;
+    margin-top: 10%;
+    background-color: white;
+}
+
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic div.week div.week__text-container p {
+    color: rgb(80, 83, 255);;
+}
+
+div.body__pageTwo__main div.body__pageTwo__main__circlenumberic-container div.body__pageTwo__main__circlenumberic div.week div.week__text-container p.week__name {
+    font-family: 'MyriadPro-Bold';
+}
+
+
+/*Other*/
+/*Circle behind the introduction banner*/
+div.body__pageTwo div.body__pageTwo__side div.body__pageTwo__side__text-container:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #262626;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+    top: calc(75%);
+    right: 10%;
+}
+
+
+
+
+
+
+/*Keyframe animation*/
+
+@keyframes Spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(120deg);
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+
+    75% {
+        transform: rotate(150deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

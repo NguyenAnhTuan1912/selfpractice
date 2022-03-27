@@ -1,0 +1,250 @@
+/*Các break page ở giữa các page*/
+div.body div.body__breakPage {
+    width: 100%;
+    height: 600px;
+}
+
+/*Page Break on top on page 2*/
+div.body div.body__breakPage:nth-child(3) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Black Lined Circle on the first break page*/
+div.body div.body__breakPage:nth-child(3):after {
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid #262626;
+    border-radius: 50%;
+    left: 60%;
+    top: 40%;
+    z-index: -1;
+}
+
+/*Second Break Page*/
+div.body div.body__breakPage:nth-child(6) {
+    display: flex;
+    position: relative;
+    height: 400px;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+/*Header text cho page thu 2, 3*/
+div.body__breakPage div.body__breakPage__textheader-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 2px solid #262626;
+    border-bottom: 2px solid #262626;
+    background-color: white;
+}
+
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(1) {
+    position: relative;
+    width: 200px;
+    height: 95px;
+    text-align: center;
+    background-color: white;
+}
+
+/*Map text*/
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(1) p.textheader {
+    font-size: 50pt;
+    font-family: 'MyriadPro-Black';
+}
+
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(2) {
+    margin-top: -10px;
+}
+
+/*String "The Journey has begun"*/
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(2) p.textheader {
+    position: relative;
+    font-size: 20pt;
+    font-family: 'MyriadPro-Light';
+    left: -120px;
+}
+
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(2) {
+    position: relative;
+}
+
+div.body__breakPage div.body__breakPage__textheader-container div.body__breakPage__textheader:nth-child(2) div.body__breakPage__textheader-after {
+    position: absolute;
+    width: 0px;
+    height: 32px;
+    background-color: #262626;
+    transform: translateY(-100%);
+    left: -100%;
+}
+
+/*String "Let's Start"*/
+div.body__breakPage:nth-child(3) div.body__breakPage__text-container:nth-child(2) {
+    position: absolute;
+    width: 500px;
+    height: fit-content;
+    top: 60%;
+    left: 5%;
+    z-index: -1;
+    transform: translateY(-80%);
+}
+
+div.body__breakPage:nth-child(3) div.body__breakPage__text-container:nth-child(2) div.body__breakPage__text {
+    width: fit-content;
+    height: fit-content;
+}
+
+div.body__breakPage:nth-child(3) div.body__breakPage__text-container:nth-child(2) div.body__breakPage__text p.text {
+    font-family: 'MyriadPro-Black';
+    font-size: 100pt;
+    line-height: 0.8;
+    color: #262626;
+}
+
+/*"The end of journey" container in breakpage 3*/
+div.body__breakPage:nth-child(6) div.body__breakPage__text-container {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    z-index: -1;
+    transform: translateY(0);
+}
+
+div.body__breakPage:nth-child(6) div.body__breakPage__text-container div.body__breakPage__text-container-after {
+    position: absolute;
+    width: 105%;
+    height: 200px;
+    background-color: #262626;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+div.body__breakPage:nth-child(6) div.body__breakPage__text-container div.body__breakPage__text {
+    display: flex;
+    width: fit-content;
+    height: 190px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/*String "The end of journey" in breakpage 3*/
+div.body__breakPage:nth-child(6) div.body__breakPage__text-container div.body__breakPage__text p.text {
+    font-family: 'MyriadPro-Black';
+    font-size: 96pt;
+    color: #262626;
+    line-height: 0.8;
+}
+
+/*Image on second break page*/
+div.body__breakPage div.body__breakPage__img-container {
+    margin: 0 auto;
+    width: 1920px;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+/*Others*/
+/*The black rectangle on the right of 1st break page*/
+div.body__breakPage:nth-child(3) div.body__breakPage__textheader-container div.body__breakPage__textheader-container-after {
+    position: absolute;
+    width: 9.375%;
+    height: 196px;
+    background-color: #262626;
+    right: 0;
+    z-index: 1;
+    border: 1px solid #262626;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Animation Keyframes
+*/
+
+@keyframes increaseWidth {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 120px;
+    }
+}
+
+@keyframes decreaseWidth {
+    0% {
+        width: 120px;
+    }
+
+    100% {
+        width: 60px;
+    }
+}
+
+@keyframes decreaseWidth_2 {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 2%;
+    }
+}
+
+@keyframes moveX {
+    0% {
+        left: -120px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes Down {
+    0% {
+        transform: translateY(-80%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes Up-midpage {
+    0% {
+        transform: translateY(0) translateX(50%);
+    }
+
+    100% {
+        transform: translateY(80%) translateX(50%);
+    }
+}

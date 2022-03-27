@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url(font/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url(font/MYRIADPRO-BOLD.OTF);
+}
+
+@font-face {
+    font-family: 'MyriadPro-Black';
+    src: url(font/MYRIADPRO-BLACK_0.OTF);
+}
+
+@font-face {
+    font-family: 'MyriadPro-Light';
+    src: url(font/MYRIADPRO-LIGHT_0.OTF);
+}
+
+@font-face {
+    font-family: 'Futha';
+    src: url(font/FUTHA___.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'MyriadPro-Regular';
+    color: #262626;
+}
+
+:root {
+    --innerHeight: 979px;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    min-height: var(--innerHeight);
+}
+
+/*Tắt scroll bar của trình duyệt*/
+::-webkit-scrollbar { 
+    display: none;
+}
+
+/*Body*/
+div.body {
+    width: 100%;
+    min-height: var(--innerHeight);
+}
+
+a {
+    text-decoration: none;
+}
